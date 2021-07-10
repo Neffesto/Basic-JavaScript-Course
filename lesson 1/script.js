@@ -1,6 +1,6 @@
 var tC = prompt('Введите температуру в Цельсиях');
 var tF = (9 / 5) * tC + 32;
-alert(tC + ' Цельсия ' + 'по Фореншейту равно ' + tF);
+alert(tC + ' Цельсия ' + 'по Форенгейту равно ' + tF);
 
 let mainName = 'Василий';
 let adminName = mainName;
