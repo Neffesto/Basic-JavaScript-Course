@@ -45,4 +45,4 @@ console.log(division(10, 5));
 function summation(a, b) {
     return (a * b);
 }
-console.log(division(10, 5));
+console.log(summation(10, 5));
