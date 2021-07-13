@@ -7,8 +7,8 @@
 */
 
 
-let a = parseInt(prompt('введите число a'));
-let b = parseInt(prompt('введите число b'));
+let a = +(-10);
+let b = +(6);
 
 function getDifference(a, b) {
     if (a >= 0 && b >= 0) {
@@ -20,13 +20,13 @@ function getDifference(a, b) {
     else if (a < 0 && b >= 0) {
         var c = (a + b);
     }
-    else if (a >= 0 && b < 0) {
+    else if (a >= 0 && b < 0 || a < 0 && b >= 0) {
         var c = (a + b);
     }
 
     return c;
 }
 
-alert(getDifference(a, b));
+console.log(getDifference(a, b));
 
 

@@ -3,8 +3,7 @@
 */
 
 
-let a = +prompt('введите число от 0 до 15');
-
+let a = 4; // любое целое число от 0 до 15
 
 switch (a) {
     case 0:
@@ -54,5 +53,7 @@ switch (a) {
     //break;
     case 15:
         console.log(15);
-    //break;
+        break;
+    default:
+        console.log('не верное значение');
 }
