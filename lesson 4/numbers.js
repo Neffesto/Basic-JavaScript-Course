@@ -1,6 +1,5 @@
 "use strict";
-//let num = parseInt(2);
-let num = parseInt(prompt('Введите трех значное число от 0 до 999'));
+
 function optimizingNumber(num) {
     const numberObject = {
         units: 0, // единицы
@@ -8,10 +7,10 @@ function optimizingNumber(num) {
         hundred: 0, // сотни
     }
     if (num > 999) {
-        alert('Вы в вели слишком длинное число');
+        alert('В ведено слишком длинное число. Необходимо ввести число от 0 до 999');
         return numberObject;
     } if (num < 0) {
-        alert('Вы в вели отрицательное число');
+        alert('В ведено отрицательное число. Необходимо ввести число от 0 до 999');
         return numberObject;
     }
     num = String(num);
@@ -27,4 +26,4 @@ function optimizingNumber(num) {
     numberObject['hundred'] = number[0];
     return numberObject;
 }
-console.log(optimizingNumber(num));
+console.log(optimizingNumber(153));
